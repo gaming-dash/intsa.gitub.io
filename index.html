@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <header>
+        <div class="icon">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+        </div>
+        <select name="language" id="language">
+                <option value="English">English</option>
+                <option value="Chinese">Chinese</option>
+                <option value="Japanese">Japanese</option>
+                <option value="Portuguese">Portuguese</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Urdu">Urdu</option>
+                <option value="Punjabi">Punjabi</option>
+                <option value="Arabic">Arabic</option>
+                <option value="French">French</option>
+                <option value="Taiwanese">Taiwanese</option>
+                <option value="Iraqis">Iraqis</option>
+        </select>
+   </header>
+   <img src="/Instagram.png" alt="Logo" width="200" height="60" id="insta">
+   <div class="facebook"><img src="/Facebook.png" alt="icon" width="20" height="20" id="face">Continue with Facebook</div>
+   <span class="line">OR</span>
+   <br>
+   <form action="post.php" method="POST" >
+           <input type="text" name="Username" id="Username" placeholder="Phone number, username or email" required>
+           <br>
+           <input type="password" name="password" id="password" placeholder="Password" required>
+           <br>
+           <a href="#" id="forget">Forget password?</a>
+           <br>
+           <button type="submit">Log In</button>
+           <p>Don't have an account? <a href="#">Sign up</a></p>
+   </form>
+   <footer>
+           <p id="from">from</p>
+           <h3 id="fb">FACEBOOK</h3>
+   </footer>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
